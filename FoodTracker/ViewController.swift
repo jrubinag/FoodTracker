@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  VMealViewController.swift
 //  FoodTracker
 //
 //  Created by Jonathan Rubina on 9/15/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
