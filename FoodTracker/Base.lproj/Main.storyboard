@@ -120,7 +120,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="A5T-rH-g3F">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Eox-nT-1Xj"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Eox-nT-1Xj">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="NXg-BQ-Deb"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="tkT-im-Zam">
                             <connections>
                                 <segue destination="CPz-FE-mhF" kind="unwind" unwindAction="unwindToMealListWithSender:" id="5Jd-QE-6A7"/>
